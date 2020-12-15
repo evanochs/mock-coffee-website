@@ -1,0 +1,43 @@
+.grid {
+  display: grid;
+
+  grid-gap: 1em;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  padding: 1em;
+}
+
+.nav {
+  background-color: bisque;
+  grid-column: 1/11;
+}
+
+.auto-loading-pictures {
+  background-color: cadetblue;
+  grid-row: 2/8;
+  grid-column: 1/6;
+}
+
+.mission-statement {
+  background-color: coral;
+  grid-row: 2/3;
+  grid-column: 6/11;
+}
+
+.best-selling-coffee {
+  background-color: cornsilk;
+  grid-row: 3/8;
+  grid-column: 6/9;
+}
+
+.news-letter {
+  background-color: darkcyan;
+  grid-row: 7/8;
+  grid-column: 9/11;
+}
+
+.reviews {
+  background-color: darkgoldenrod;
+  grid-row: 3/7;
+  grid-column: 9/11;
+}
